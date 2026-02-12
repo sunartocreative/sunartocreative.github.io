@@ -1,0 +1,72 @@
+====CERTIFICATE==== >>> FIX
+	- <header> .navbar 
+		- <nav> .navbar__container
+			- <ul> >>> ini empat menu pertama .navbar__menu
+				- <li> .navbar__item
+			- <ul> >>> ini dua menu terakhir .navbar__action
+				- <li> .navbar__item
+	- <main>
+		- <section> .fullstack >>> untuk junior fullstack
+			- <header> .fullstack__header
+				- <h3> .fullstack__title
+			- <div> .line
+			- <div> .fullstack__content
+				- <article> .fullstack__article >>> ini card
+					- <a> .fullstack__card
+						- <figure> .fullstack__figure
+							- <img> .fullstack__img
+						- <h6> .fullstack__card__title
+						- <p> .fullstack__description
+				- <article> .fullstack__article >>> ini card
+					- <a> .fullstack__card
+						- <figure> .fullstack__figure
+							- <img> .fullstack__img
+						- <h6> .fullstack__card__title
+						- <p> .fullstack__description
+
+		- <section> .graphic >>> untuk graphic design
+			- <header> .graphic__header
+				- <h3> .graphic__title
+			- <div> .line
+			- <div> .graphic__content
+				- <article> .graphic__article >>> ini card
+					- <a> .graphic__card
+						- <figure> .graphic__figure
+							- <img> .graphic__img
+						- <h6> .graphic__card__title
+						- <p> .graphic__description
+				- <article> .graphic__article >>> ini card
+					- <a> .graphic__card
+						- <figure> .graphic__figure
+							- <img> .graphic__img
+						- <h6> .graphic__card__title
+						- <p> .graphic__description
+
+		- <section> .other >>> other
+			- <header> .other__header
+				- <h3> .other__title
+			- <div> .line
+			- <div> .other__content >>> container
+				- <article> .other__article >>> ini card
+					- <a> .other__card
+						- <figure> .other__figure
+							- <img> .other__img
+						- <h6> .other__card__title
+						- <p> .other__description
+				- <article> .other__article >>> ini card
+					- <a> .other__card
+						- <figure> .other__figure
+							- <img> .other__img
+						- <h6> .other__card__title
+						- <p> .other__description
+		- <aside> .close__statement
+			- <img> .close__statement__img
+			- <p> .close__statement__title
+			- <img> .close__statement__img
+	- <footer> .footer-content
+		- <div> .footer-content__primary
+			- <h6> .footer-content__title
+			- <p>	.footer-content__description
+			- <div> .footer-content__line
+		- <div> .footer-content__secondary
+			- <p> .footer-content__description

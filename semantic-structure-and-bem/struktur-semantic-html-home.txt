@@ -1,0 +1,142 @@
+====HOME==== >>> FIX
+	- <header> .navbar 
+		- <nav> .navbar__container
+			- <ul> >>> ini empat menu pertama .navbar__menu
+				- <li> .navbar__item
+			- <ul> >>> ini dua menu terakhir .navbar__action
+				- <li> .navbar__item
+	- <main> 
+		- <section> .hero >>> ini judul awal
+			- <div> .hero__content
+				- <p> .hero__greet
+				- <h1> .hero__title
+					- <span> .hero__title hero__title--primary
+					- <span> .hero__title hero__title--and
+					- <span> .hero__title hero__title--secondary
+				- <p> .hero__description
+				- <p> .hero__swipe
+			- <figure> >>> ini foto hero .hero__figure
+				- <img> .hero__figure-img
+				- <figcaption> .hero__figure-caption
+		- <section> >>> kesadaran .awareness
+			- <h3>	.awareness__title
+				- <span> .awareness__quation >>> ini untuk petik
+			- <p>	.awareness__description
+				- <span> .awareness__quation >>> ini untuk petik
+		- <section> >>> ini sertifikat .certificate
+			- <h3> .certificate__title
+				- <div> .certificate__container
+					- <article> .certificate__card >>> ini card
+						- <a> .certificate__card__link
+							- <div> .certificate__img__container
+								- <img> .certificate__img
+							- <h3> .certificate__card__title
+							- <p> .certificate__card__description
+					- <article> .certificate__card >>> ini card
+						- <a> .certificate__card__link
+							- <div> .certificate__img__container
+								- <img> .certificate__card__img
+							- <h3> .certificate__card__title
+							- <p> .certificate__card__description
+		- <section> >>> ini proyek .project
+			- <h3> .project__title
+				- <div> .project__container
+					- <article> .project__card >>> ini card
+						- <a> .project__card__link
+							- <div> .project__img__container
+								- <img> .project__img
+							- <h3> .certificate__card__title
+							- <p> .certificate__card__description
+					- <article> .project__card >>> ini card
+						- <a> .project__card__link
+							- <div> .project__img__container
+								- <img> .project__img
+							- <h3> .project__card__title
+							- <p> .project__card__description
+		- <section> .utility__softskill >> Penguasaan Utilitas dan Soft Skill
+			- <header> .utility__softskill__header
+				- <h2> .utility__softskill__title
+			- <div> .utility__softskill__container >> static value
+				- <section> .utility__container
+					- <article> .utility utility__graphic--designer>> Graphic Designer
+						- <h3> .utility__title
+						- <ul> .utility__list
+							- <li>
+								- <span>
+								- <progress>
+							- <li>
+								- <span>
+								- <progress>
+					- <article> .utility utility__junior--fullstack>> Junior FullStack
+						- <h3> .utility__title
+						- <ul> .utility__list >> ini list 
+							- <li>
+								- <span>
+								- <progress>
+							- <li>
+								- <span>
+								- <progress>
+				- <aside> .softskill >> softSkill
+					- <h3> .softskill__title
+					- <p> .softskill__description
+					- <div> .softskill__decoration
+		- <section> .callme >>> hubungi saya
+ 			- <figure> .callme__hero
+				- <img> .callme__img
+				- <figcation> 
+			- <article> .callme__article
+				- <header> .callme__header
+					- <h5> .callme__title
+					- <p> .callme__header__description
+				- <div> .callme__content
+					- <img> .callme__article__img
+					- <span> .callme__article__span
+					- <div> .callme__article__line
+					
+				- <footer> .callme__footer
+					- <p> .callme__footer__description
+		- <section> .thanks
+			- <div> .thanks__container
+				- <h2> .thanks__title__primary
+				- <h3> .thanks__title__secondary
+			- <div> .thanks__decoration
+				- <img> .thanks__decoration__img
+		- <aside> .close__statement
+			- <img> .close__statement__img
+			- <h5> .close__statement__title
+			- <img> .close__statement__img
+	- <footer> .footer-content
+		- <div> .footer-content__primary
+			- <h6> .footer-content__title
+			- <table> .footer-content__table
+				- <tr>
+					- <td>
+					- <td>
+					- <td>
+			- <table> .footer-content__table
+				- <tr>
+					- <td>
+					- <td>
+					- <td>
+			- <table> .footer-content__table
+				- <tr>
+					- <td>
+					- <td>
+					- <td>
+			- <table> .footer-content__table
+				- <tr>
+					- <td>
+					- <td>
+					- <td>
+			- <table> .footer-content__table
+				- <tr>
+					- <td>
+					- <td>
+					- <td>
+			- <table> .footer-content__table
+				- <tr>
+					- <td>
+					- <td>
+					- <td>
+		- <div> .footer-content__secondary
+			- <p> .footer-content__description

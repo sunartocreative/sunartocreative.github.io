@@ -1,0 +1,34 @@
+====PROJECT DETAIL==== >>> FIX
+	- <header> .navbar 
+		- <nav> .navbar__container
+			- <ul> >>> ini empat menu pertama .navbar__menu
+				- <li> .navbar__item
+			- <ul> >>> ini dua menu terakhir .navbar__action
+				- <li> .navbar__item
+	- <main>
+		- <h2> .title
+		- <section> .content
+			- <figure> .content__figure
+				- <img> .content__img
+				- <iconButton> .button
+				- <span> .button__description
+			- <section>	.overview
+				- <h2> .content__title 
+				- <p> .content__description
+			- <section> .utility
+				- <h2> .content__title
+				- <p> .content__description
+			- <section> .clearly__view
+				- <h2> .content__title
+				- <p> .content__description
+		- <aside> .close__statement
+			- <img> .close__statement__img
+			- <p> .close__statement__title
+			- <img> .close__statement__img
+	- <footer> .footer-content
+		- <div> .footer-content__primary
+			- <h6> .footer-content__title
+			- <p>	.footer-content__description
+			- <div> .footer-content__line
+		- <div> .footer-content__secondary
+			- <p> .footer-content__description

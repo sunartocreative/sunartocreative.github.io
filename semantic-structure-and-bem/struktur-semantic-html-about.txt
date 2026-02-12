@@ -1,0 +1,114 @@
+====ABOUT==== >>> FIX
+	- <header> .navbar 
+		- <nav> .navbar__container
+			- <ul> .navbar__menu >>> ini empat menu pertama 
+				- <li> .navbar__item
+			- <ul> .navbar__action >>> ini dua menu terakhir
+				- <li> .navbar__item
+	- <main> 
+		- <section> .main__content >>> ini untuk konten utama
+			- <section> .hero >>> gambar hero
+				- <figure> .hero__figure
+					- <img> .hero__img
+					- <figcaption> .hero__caption
+				- <img> .hero__decoration
+				- <p> .swip__up >>> arah panah
+				
+			- <section> .about >>> tetang saya
+				- <h4> .about__title >>> text "Tentang Saya"
+				- <div> .line .about--line
+				- <section> .about__personal__data__content
+					- <h6> .about__personal__data__title >>> data pribadi
+					- <table> .about__personal__data__table
+						- <tr>
+							- <td>
+							- <td>
+							- <td>
+						- <tr>
+							- <td>
+							- <td>
+							- <td>
+						- <tr>
+							- <td>
+							- <td>
+							- <td>
+						- <tr>
+							- <td>
+							- <td>
+							- <td>
+						- <tr>
+							- <td>
+							- <td>
+							- <td>
+						- <tr>
+							- <td>
+							- <td>
+							- <td>
+				- <section> .education
+					- <h6> .education__title >>> pendidikan
+					- <div> .education__content
+						- <img> .education__content__decoration
+						- <div> .education__school
+							- <h6> .education__school__title
+							- <h6> .education__school__title
+							- <h6> .education__school__title education__school__title--major
+								- <span> .education__major
+							- <h6> .education__school__title education__school__title--major
+								- <span> .education__major
+				- <section> .experience
+					- <h6> .experience__title >>> Pengalaman Kerja
+					- <div> .experience__content
+						- <img> .experience__content__decoration
+						- <h6> .experience__content__title
+				- <section> .organization
+					- <h6> .organization__title >>> Pengalaman Organisasi
+					- <div> .organization__content
+						- <img> .organization__content__decoration
+						- <div> .organization__experience
+							- <h6> .organization__experience__title
+							- <h6> .organization__experience__title
+				- <aside> .decoration__primary
+					- <img> .decoration__primary__img
+
+			- <div> .line primary--line
+			- <section> .question >>> pertanyaan
+				- <section> .question__content
+					- <div> .question__graphic__design
+						- <h5> .question__title
+						- <p> .question__description
+					- <div> .question__informatic__engineering
+						- <h5> .question__title
+						- <p> .question__description
+					- <div> .question__what__next
+						- <h5> .question__title
+						- <p> .question__description
+					- <p> .swip__up >>> geser ke atas
+				- <aside> .question__decoration >>> hiasan
+					- <img> .question__decoration__img
+			
+			- <div> .line secondary--line
+			- <section> .interest
+				- <h4> .interest__title
+				- <div> .interest__content >>> garis luar 
+					- <div> .interest__arch__decoration >>> arch
+						- <img> .interest__img
+					- <h5> .interest__quote
+					- <div> >>> .line tertiary--line
+
+			- <aside> .close__statement
+				- <img> .close__statement__img
+				- <h6> .close__statement__title
+				- <img> .close__statement__img
+
+		- <aside> .right__decoration >>> ini untuk hiasan line vertikal
+			- <h6> .right__decoration__title
+			- <div> .line right__decoration__line
+			- <h6> .right__decoration__title
+			- <div> .line right__decoration__line
+	- <footer> .footer-content
+		- <div> .footer-content__primary
+			- <h6> .footer-content__title
+			- <p>	.footer-content__description
+			- <div> .footer-content__line
+		- <div> .footer-content__secondary
+			- <p> .footer-content__description

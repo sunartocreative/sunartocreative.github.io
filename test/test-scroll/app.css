@@ -1,0 +1,21 @@
+.card-wrapper {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 16px;
+  cursor: grab;
+  user-select: none;
+}
+
+.card-wrapper:active {
+  cursor: grabbing;
+}
+
+.card {
+  min-width: 220px;
+  height: 140px;
+  background: #eaeaea;
+  border-radius: 12px;
+  padding: 16px;
+  flex-shrink: 0;
+}

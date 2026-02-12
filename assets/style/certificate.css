@@ -1,0 +1,261 @@
+/* ==== MAIN ==== */
+
+main{
+    padding: 20px;
+}
+
+/* ==== MAIN ==== */
+
+/* ==== FULLSTACK ==== */
+
+.fullstack__header{
+    margin-top: 20px;
+}
+
+.fullstack__title{
+    font-size: 25px;
+    color: rgba(255, 174, 0, 1);
+}
+
+.line{
+    background-color: rgba(86, 0, 136, 1);
+    height: 2px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.fullstack__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fullstack__article{
+    background-color: rgba(86, 0, 136, 1);
+    width: 200px;
+    height: 300px;
+    margin: 8px;
+    border-radius: 15px;
+    outline: solid rgba(86, 0, 136, 1) 2px;
+    overflow: hidden;
+}
+
+.fullstack__figure{
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.fullstack__card__title{
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 10px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fullstack__description{
+    font-size: 10px;
+    color: white;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* ==== FULLSTACK ==== */
+
+/* ==== GRAPHIC ====  */
+
+.graphic__header{
+    margin-top: 20px;
+}
+
+.graphic__title{
+    font-size: 25px;
+    color: rgba(255, 174, 0, 1);
+}
+
+.graphic__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.graphic__article{
+    background-color: rgba(86, 0, 136, 1);
+    width: 200px;
+    height: 300px;
+    margin: 8px;
+    border-radius: 15px;
+    outline: solid rgba(86, 0, 136, 1) 2px;
+    overflow: hidden;
+}
+
+.graphic__figure{
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.graphic__card__title{
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 10px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.graphic__description{
+    font-size: 10px;
+    color: white;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+/* ==== GRAPHIC ====  */
+
+/* ==== OTHER ==== */
+
+.other__header{
+    margin-top: 20px;
+}
+
+.other__title{
+    font-size: 25px;
+    color: rgba(255, 174, 0, 1);
+}
+
+.other__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other__article{
+    background-color: rgba(86, 0, 136, 1);
+    width: 200px;
+    height: 300px;
+    margin: 8px;
+    border-radius: 15px;
+    outline: solid rgba(86, 0, 136, 1) 2px;
+    overflow: hidden;
+}
+
+.other__figure{
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.other__card__title{
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 10px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.other__description{
+    font-size: 10px;
+    color: white;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+/* ==== OTHER ==== */
+
+/* === CLOSE__STATEMENT === */
+
+.close__statement{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: fit-content; /* atau width tertentu */
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.close__statement__img{
+    width: 40px;
+}
+
+.close__statement__title{
+    letter-spacing: 20px;
+    font-weight: 500;
+    font-size: large;
+    color: rgba(86, 0, 136, 1);
+    align-self: center;
+}
+
+@media (max-width: 600px) {
+    .close__statement {
+        gap: 10px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .close__statement__img {
+        width: 25px;
+    }
+
+    .close__statement__title {
+        letter-spacing: 8px;
+        font-size: medium;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .close__statement {
+        gap: 15px;
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+
+    .close__statement__img {
+        width: 32px;
+    }
+
+    .close__statement__title {
+        letter-spacing: 12px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 500px) {
+    .close__statement__img {
+        width: 20px;
+    }
+
+    .close__statement__title {
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+}
+
+/* === CLOSE__STATEMENT === */

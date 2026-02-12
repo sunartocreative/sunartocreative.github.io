@@ -1,0 +1,238 @@
+/* ==== MAIN ==== */
+
+main {
+    background-color: rgba(86, 0, 136, 1);
+    padding: 20px;
+}
+
+/* ==== MAIN ==== */
+
+/* title */
+
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-transform: capitalize;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* title */
+
+/* content */
+.content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.content__figure{
+    align-self: center;
+}
+
+.content__img{
+    width: 40%;
+    margin: 0 auto;
+    outline: 5px solid rgba(86, 0, 136, 1);
+    border-radius: 20px;
+}
+
+.overview{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.content__description{
+    text-align: justify;
+}
+
+.content__title{
+    color: rgba(86, 0, 136, 1);
+}
+
+.utility{
+    margin-bottom: 20px;
+}
+
+/* responsive */
+
+@media (max-width: 500px){
+    .title{
+        font-size: 20px;
+    }
+
+    .content__img{
+        border-radius: 7px;
+        outline: 3px solid rgba(86, 0, 136, 1);
+        margin: 0 auto;
+    }
+
+    .content__img.voucher{
+        width: 300px;
+    }
+}
+
+/* responsive */
+/* content */
+
+
+
+/* close__statement */
+
+.close__statement{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: fit-content; /* atau width tertentu */
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.close__statement__img{
+    width: 40px;
+}
+
+.close__statement__title{
+    letter-spacing: 20px;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    align-self: center;
+}
+
+@media (max-width: 600px) {
+    .close__statement {
+        gap: 10px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .close__statement__img {
+        width: 25px;
+    }
+
+    .close__statement__title {
+        letter-spacing: 8px;
+        font-size: medium;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .close__statement {
+        gap: 15px;
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+
+    .close__statement__img {
+        width: 32px;
+    }
+
+    .close__statement__title {
+        letter-spacing: 12px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 500px) {
+    .close__statement__img {
+        width: 20px;
+    }
+
+    .close__statement__title {
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+
+    .content{
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+/* close__statement */
+button {
+  all: unset;
+  cursor: pointer;
+}
+.button__button{
+    width: 30px;
+}
+.flex__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3px;
+    gap: 5px;
+    margin-left: 3px;
+}
+
+.content__img.java{
+    width: 600px;
+}
+
+.content__img.voucher{
+    width: 700px;
+}
+
+.content__img.ui--portfolio{
+    width: 800px;
+}
+
+.content__img.ui-backend-voucher-wifi{
+    width: 800px;
+}
+
+.content__img.ui-frontend-voucher-wifi{
+    width: 250px;
+}
+
+.content__img.ui--hpp{
+    width: 250px;
+}
+
+.content__img.banner--stop-kekerasan{
+    width: 300px;
+}
+
+.content__img.board-information-sop-telaga{
+    width: 800px;
+}
+
+.content__figure2.instagram--carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.content__img2.instagram--carousel{
+    width: 250px;
+    margin: 20px 5px 20px 5px;
+    outline: 5px solid rgba(86, 0, 136, 1);
+    border-radius: 10px;
+}
+
+.content__img.ml-image-classification{
+    width: 100%;
+}
+
+.content__img.data-analysis-with-python{
+    width: 100%;
+}
+
+.content__img.spanduk-stop-bullying{
+    width: 100%;
+}
+
+.content__img.utina-logo{
+    width: 100%;
+}
