@@ -205,6 +205,10 @@ button {
     width: 800px;
 }
 
+.content__img.kusaku{
+    width: 300px;
+}
+
 .content__figure2.instagram--carousel{
     width: 100%;
     display: flex;
